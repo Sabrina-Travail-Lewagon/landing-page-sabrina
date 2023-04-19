@@ -1,0 +1,35 @@
+.stat-form{
+    background-color: #fff;
+    color: #fff;
+    padding: 5px 0;
+    margin: 210px 30px;
+    display: inline-flex;
+
+}
+
+.stat-form p{
+    box-shadow: 0 10px 20px rgba(0,0,0, .1);
+}
+
+.stat-form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    font-size: 16px;
+  }
+
+  .stat-form .stat-form-submit {
+    background-color: #000;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }

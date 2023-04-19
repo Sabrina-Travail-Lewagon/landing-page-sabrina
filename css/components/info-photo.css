@@ -1,0 +1,19 @@
+.info-photo {
+        color: #fff;
+        font-size: 26px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 70px 30px;
+}
+
+.info-photo-txt {
+    padding-top: 180px;
+  }
+
+.info-photo-txt p {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0, .1);
+  }

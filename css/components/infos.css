@@ -1,0 +1,104 @@
+.info{
+    padding-top: 25px;
+}
+
+.infos{
+    display: flex;
+}
+
+.info-name h1{
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.info-name{
+    position: relative;
+    padding: 66px;
+}
+
+.info-presentation{
+    padding: 0 66px;
+}
+
+.info-presentation p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.info-presentation-icon{
+    color: #000;
+    font-size: 20px;
+}
+
+.link-project{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;    
+    font-weight: bolder;
+}
+
+.info-stats{
+    display: flex;
+}
+
+.info-photo{
+    background-image: url("../../img/photo_moi.jpg"); 
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.info-card{
+    width: 100px
+}
+
+.info-card:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.info-card h2{
+    font-weight: bolder;
+}
+
+.info-card p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.info-contact h4 {
+    margin-bottom: -3px;
+    font-size: 20px;
+  }
+
+.info-contact p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info-presentation-link{
+    display: flex;
+    align-items: center;
+}

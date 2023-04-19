@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,300');
+@import url("components/container.css");
+@import url("components/top-bar.css");
+@import url("components/list-inline.css");
+@import url("components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/infos.css");
+@import url("components/info-stats.css");
+@import url("components/info-photo.css");
+@import url("components/stat-form.css");
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: rgb(58,54,49);
+    background: radial-gradient(circle, rgba(58,54,49,1) 0%, rgba(139,139,139,1) 60%); 
+}
